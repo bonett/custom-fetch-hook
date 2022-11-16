@@ -1,0 +1,30 @@
+.trip-list {
+    padding: 0 40px;    
+}
+
+.trip-list ul,
+.trip-list li {
+    list-style: none;
+}
+
+.trip-list li {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid #efefef;
+    padding: 10px 30px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 4px #e8e8e8;
+}
+
+.filters {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.filters > button {
+    margin: 0 6px;
+}
